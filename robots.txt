@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jasmeet6003-a11y.github.io/baggaarchitects/sitemap.xml
