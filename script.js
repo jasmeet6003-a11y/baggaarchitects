@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    const nav = document.querySelector(".nav");
     const hamburger = document.querySelector(".nav__hamburger");
-    const navLinks = document.querySelector(".nav__links");
 
-    if (hamburger && navLinks) {
+    if (hamburger && nav) {
         hamburger.addEventListener("click", function () {
-            navLinks.classList.toggle("active");
+            nav.classList.toggle("open");
         });
     }
 
